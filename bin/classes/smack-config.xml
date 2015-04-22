@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- Smack configuration file. -->
+<smack>
+    <!-- Packet reply timeout in milliseconds -->
+    <packetReplyTimeout>3000</packetReplyTimeout>
+
+    <!-- Keep-alive interval in milliseconds -->
+    <keepAliveInterval>15000</keepAliveInterval>
+</smack>
