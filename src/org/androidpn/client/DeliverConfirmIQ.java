@@ -19,7 +19,7 @@ public class DeliverConfirmIQ extends IQ {
 	public String getChildElementXML() {
 		  StringBuilder buf = new StringBuilder();
 	        buf.append("<").append("deliverconfirm").append(" xmlns=\"").append(
-	                "androidpn:iq:uuid").append("\">");
+	                "androidpn:iq:deliverconfirm").append("\">");
 	        if (uuid != null) {
 	            buf.append("<uuid>").append(uuid).append("</uuid>");
 	        }

@@ -25,7 +25,8 @@ class DirectSocketFactory extends SocketFactory {
 		/**
 		 * set connect timeout values 10s
 		 */
-		newSocket.connect(new InetSocketAddress(host, port),10*1000);
+//		newSocket.connect(new InetSocketAddress(host, port),10*1000);
+		newSocket.connect(new InetSocketAddress(host, port));
 		return newSocket;
 	}
 
